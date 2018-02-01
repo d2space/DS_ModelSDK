@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //测试调用方法,多层字典数组转模型
-        let dic = ["name": "周顺",
+        let dic = ["name": "d2space",
                    "age": "25",
                    "cards":[["name":"金融","id":"1"],["name":"乐购","id": "2"]],
                    "card":["name": "家乐福", "id": "1005","bank":["id": "005","name": "招商银行"]]] as [String : Any]
