@@ -1,0 +1,11 @@
+framework module DS_ModelSDK {
+  umbrella header "DS_ModelSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DS_ModelSDK.Swift {
+    header "DS_ModelSDK-Swift.h"
+    requires objc
+}
